@@ -69,7 +69,7 @@ function parseTag(content: string, line: number, contentStart: number) {
   }
 }
 
-export function parseTags(content: string, firstLine = 0): Token[] {
+export function parseTags(content: string, firstLine = 0): any[] {
   let line = firstLine + 1;
   const output = [];
   let start = 0;
